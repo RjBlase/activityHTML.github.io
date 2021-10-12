@@ -1,0 +1,117 @@
+* {
+    font-family: sans-serif;  
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      text-align: center;
+    }
+    .wrapper {
+      width: 1170px;
+      margin: 0 auto;
+    }
+    header {
+      height: 100px;
+      background: #5b0098;
+      width: 100%;
+      z-index: 10;
+      position: fixed;
+    }
+    .logo {
+      width: 30%;
+      float: left;
+      line-height: 100px;
+    }
+    .logo a {
+      text-decoration: none;
+      font-size: 30px;
+      font-family: poppins;
+      color: #fff;
+      letter-spacing: 5px;
+    }
+    nav {
+      float: right;
+      line-height: 100px;
+    }
+    nav a {
+      text-decoration: none;
+      font-family: poppins;
+      letter-spacing: 4px;
+      font-size: 20px;
+      margin: 0 10px;
+      color: #fff;
+    }
+    .banner-area {
+      width: 100%;
+      height: 500px;
+      position: fixed;
+      top: 100px;
+      background-image: url(Art\ Scenery.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .banner-area h2 {
+      padding-top: 8%;
+      font-size: 70px;
+      font-family: poppins;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .content-area {
+      width: 100%;
+      position: relative;
+      top: 450px;
+      background: #ebebeb;
+      height: 1000px;
+    }
+    .content-area h2 {
+      font-family: poppins;
+      letter-spacing: 4px;
+      padding-top: 30px;
+      font-size: 40px;
+      margin: 0;
+    }
+
+ 
+  .content-table {
+    border-collapse: collapse;
+    margin: auto 300px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  
+  .content-table thead tr {
+    background-color: #5b0098;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #5b0098;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #5b0098;
+  }
+  
